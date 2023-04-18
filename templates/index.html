@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Predict</title>
+  </head>
+  <body>
+    <h1>Predict</h1>
+    <form method="POST" action="/predict">
+      <label for="CUST_ID">CUST_ID:</label>
+      <input type="text" id="CUST_ID" name="CUST_ID" required><br>
+      <label for="BALANCE">BALANCE:</label>
+      <input type="number" id="BALANCE" name="BALANCE" step="any" required><br>
+      <label for="BALANCE_FREQUENCY">BALANCE_FREQUENCY:</label>
+      <input type="number" id="BALANCE_FREQUENCY" name="BALANCE_FREQUENCY" step="any" required><br>
+      <label for="PURCHASES">PURCHASES:</label>
+      <input type="number" id="PURCHASES" name="PURCHASES" step="any" required><br>
+      <label for="ONEOFF_PURCHASES">ONEOFF_PURCHASES:</label>
+      <input type="number" id="ONEOFF_PURCHASES" name="ONEOFF_PURCHASES" step="any" required><br>
+      <label for="INSTALLMENTS_PURCHASES">INSTALLMENTS_PURCHASES:</label>
+      <input type="number" id="INSTALLMENTS_PURCHASES" name="INSTALLMENTS_PURCHASES" step="any" required><br>
+      <label for="CASH_ADVANCE">CASH_ADVANCE:</label>
+      <input type="number" id="CASH_ADVANCE" name="CASH_ADVANCE" step="any" required><br>
+      <label for="PURCHASES_FREQUENCY">PURCHASES_FREQUENCY:</label>
+      <input type="number" id="PURCHASES_FREQUENCY" name="PURCHASES_FREQUENCY" step="any" required><br>
+      <label for="ONEOFF_PURCHASES_FREQUENCY">ONEOFF_PURCHASES_FREQUENCY:</label>
+      <input type="number" id="ONEOFF_PURCHASES_FREQUENCY" name="ONEOFF_PURCHASES_FREQUENCY" step="any" required><br>
+      <label for="PURCHASES_INSTALLMENTS_FREQUENCY">PURCHASES_INSTALLMENTS_FREQUENCY:</label>
+      <input type="number" id="PURCHASES_INSTALLMENTS_FREQUENCY" name="PURCHASES_INSTALLMENTS_FREQUENCY" step="any" required><br>
+      <label for="CASH_ADVANCE_FREQUENCY">CASH_ADVANCE_FREQUENCY:</label>
+      <input type="number" id="CASH_ADVANCE_FREQUENCY" name="CASH_ADVANCE_FREQUENCY" step="any" required><br>
+      <label for="CASH_ADVANCE_TRX">CASH_ADVANCE_TRX:</label>
+      <input type="number" id="CASH_ADVANCE_TRX" name="CASH_ADVANCE_TRX" step="any" required><br>
+      <label for="PURCHASES_TRX">PURCHASES_TRX:</label>
+      <input type="number" id="PURCHASES_TRX" name="PURCHASES_TRX" step="any" required><br>
+      <label for="CREDIT_LIMIT">CREDIT_LIMIT:</label>
+      <input type="number" id="CREDIT_LIMIT" name="CREDIT_LIMIT" step="any" required><br>
+      <label for="PAYMENTS">PAYMENTS:</label>
+      <input type="number" id="PAYMENTS" name="PAYMENTS" step="any" required><br>
+      <label for="MINIMUM_PAYMENTS">MINIMUM_PAYMENTS:</label>
+      <input type="number" id="MINIMUM_PAYMENTS" name="MINIMUM_PAYMENTS" step="any" required><br>
+      <label for="PRC_FULL_PAYMENT">PRC_FULL_PAYMENT:</label>
+      <input type="number" id="PRC_FULL_PAYMENT" name="PRC_FULL_PAYMENT" step="any" required><br>
+      <label for="TENURE">TENURE:</label>
+      <input type="number" id="TENURE" name="TENURE" step="any" required><br>
+      <button type="submit">Predict</button>
+    </form>
+  </body>
+</html>
+
